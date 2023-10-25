@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.submit-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact-us {
+  padding-top: 120px;
+}
+
+.row {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.lable-danger {
+  color: red;
+  padding: 5px 0;
+}
+
+.form-container form {
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 30px;
+  height: 460px;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form-container form input[type=text] {
+  padding: 15px 5px;
+  width: 100%;
+  border-radius: 8px;
+  background: none;
+  outline: none;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border: 1px solid #004d7a;
+  transition: all 0.2;
+}
+.form-container form input[type=number] {
+  width: 25%;
+  padding: 10px;
+  background: none;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border: 1px solid #004d7a;
+  transition: all 0.2;
+}
+.form-container form input[type=number]:focus {
+  border: 1px solid #004d7a;
+  transition: all 0.2;
+}
+.form-container form .form-input {
+  padding-top: 30px;
+}
+.form-container form button {
+  padding: 13px 15px;
+  background-color: #64ccc5;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid;
+  font-weight: 700;
+}
+.form-container .form-title {
+  padding: 15px 0;
+  text-align: center;
+}
+.form-container .form-title h2 {
+  font-size: 28px;
+}
+
+.table-container table thead tr {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  background: #1aacac;
+  color: #fff;
+  padding: 20px 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.table-container table tbody tr {
+  display: flex;
+  justify-content: space-between;
+  background: #2e97a7;
+  color: #fff;
+  font-weight: 700;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}/*# sourceMappingURL=style.css.map */
